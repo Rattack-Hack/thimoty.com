@@ -1,0 +1,20 @@
+                <div class="section-content" id="sec-experience">
+                    <?php if ($sections['experience']): echo $sections['experience']; else: ?>
+                    <div class="job-card">
+                        <div class="job-header">
+                            <div class="job-title">Consultant en cybersécurité &amp; Admin Système/Réseau</div>
+                            <div class="job-date"><span class="tag">05/2021 → Présent</span></div>
+                        </div>
+                        <div class="job-company">▸ Performance Conseil Informatique · Savenay</div>
+                        <div class="job-note">Contrat d'alternance · fin prévue décembre 2026</div>
+                        <ul class="job-tasks">
+                            <li><span class="task-cat cat-red">PENTEST</span> Tests d'intrusion internes en greybox — identification, exploitation et remédiation des vulnérabilités.</li>
+                            <li><span class="task-cat cat-orange">SOC</span> Déploiement de 3 SIEM <span class="hl">Wazuh</span> pour un centre opérationnel de sécurité.</li>
+                            <li><span class="task-cat cat-yellow">AUDIT</span> Audit de 2 Active Directory via <span class="hl">Pingcastle</span> + application mesures de hardening Windows.</li>
+                            <li><span class="task-cat cat-green">RÉSEAU</span> Audit et remédiation de pare-feu (appliance <span class="hl">OPNsense</span>).</li>
+                            <li><span class="task-cat cat-blue">WAF</span> Sécurisation de 5 reverse proxies avec <span class="hl">Naxsi</span>, <span class="hl">Crowdsec</span> + intégration IPS.</li>
+                            <li><span class="task-cat cat-red">LINUX</span> Application des mesures de hardening Linux sur serveurs internes.</li>
+                        </ul>
+                    </div>
+                    <?php endif; ?>
+                </div>

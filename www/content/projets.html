@@ -1,0 +1,35 @@
+<div class="section-content" id="sec-projets">
+                    <?php if ($sections['projets']): echo $sections['projets']; else: ?>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="project-header">
+                                <span class="project-icon">⚡</span>
+                                <span class="project-name">CTF / Root-Me</span>
+                                <span class="project-lang">PHP · Python</span>
+                            </div>
+                            <div class="project-desc">Résolution de challenges de sécurité offensive — Web, Réseau, Crypto, Forensic. Score actuel : 1060 pts.</div>
+                            <div class="project-tags"><span class="ptag">CTF</span><span class="ptag">Pentest</span><span class="ptag">OSCP-prep</span></div>
+                            <a href="https://www.root-me.org/Rattack" class="project-link" target="_blank">→ Voir le profil</a>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-header">
+                                <span class="project-icon">◈</span>
+                                <span class="project-name">Labs &amp; Scripts</span>
+                                <span class="project-lang">Bash · Python</span>
+                            </div>
+                            <div class="project-desc">Scripts et outils personnels pour l'automatisation d'audits, hardening et recon. Disponibles sur GitHub.</div>
+                            <div class="project-tags"><span class="ptag">Automation</span><span class="ptag">Hardening</span><span class="ptag">Recon</span></div>
+                            <a href="https://github.com/Rattack-Hack" class="project-link" target="_blank">→ Voir le repo</a>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-header">
+                                <span class="project-icon">◉</span>
+                                <span class="project-name">Déploiement SOC Wazuh</span>
+                                <span class="project-lang">Linux · Wazuh</span>
+                            </div>
+                            <div class="project-desc">Mise en place de 3 instances SIEM Wazuh en production pour un SOC d'entreprise. Règles custom, dashboards et alerting.</div>
+                            <div class="project-tags"><span class="ptag">SIEM</span><span class="ptag">SOC</span><span class="ptag">Blue Team</span></div>
+                        </div>
+                    </div>
+                    <?php endif; ?>
+                </div>
